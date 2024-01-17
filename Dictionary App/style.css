@@ -1,0 +1,66 @@
+.container {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.main {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 130px;
+    padding: 1rem;
+}
+
+.header {
+    display: flex;
+}
+
+input {
+    padding: 0.5rem;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid greenyellow;
+}
+
+.first-layer {
+   padding: 1rem 0rem;
+}
+
+.first-layer2 {
+    padding: 1rem;
+    margin: 1rem;
+    border-left: 2px solid greenyellow;
+}
+
+.first-layer p {
+    margin: 0;
+    padding: 0;
+}
+
+.first-layer2 p {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+
+.word {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.text {
+    color: gray;
+}
+
+@media screen and (max-width: 400px) {
+    /* Your styles go here */
+    .main {
+        max-width: 100%;
+    }
+    
+}
